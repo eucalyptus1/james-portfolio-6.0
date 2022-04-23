@@ -4,7 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
-// import Links from './components/Links';
+import Links from './components/Links';
 // import Resume from './components/Resume';
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <main>
         <About></About>
       </main>
+      <Links></Links>
     </div>
   );
 }
