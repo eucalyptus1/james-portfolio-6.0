@@ -4,13 +4,13 @@ function Links() {
     return (
         <footer>
             <ul className="flex-row">
-                <li className="mx-2">
+                <li>
                     <a>Github</a>
                 </li>
-                <li className="mx-2">
+                <li>
                     <a>LinkdIn</a>
                 </li>
-                <li className="mx-2">
+                <li>
                     <a>Stackoverflow</a>
                 </li>
             </ul>

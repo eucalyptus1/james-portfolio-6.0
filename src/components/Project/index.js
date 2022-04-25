@@ -1,16 +1,16 @@
 import React from "react";
 import photo from "../../assets/images/runbuddy.png";
 
-function Portfolio() {
+function Project() {
     return (
         <div className="flex-row">
                 <img
                 src={photo}
                 alt="Runbuddy"
-                className="img-thumbnail mx-1"
+                className="img-thumbnail"
                 />
             </div>
     )
 }
 
-export default Portfolio;
+export default Project;

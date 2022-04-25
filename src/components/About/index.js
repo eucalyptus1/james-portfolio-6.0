@@ -1,12 +1,14 @@
 import React from "react";
 import coverImage from "../../assets/images/clouds.jpg";
+// import avatar from "../../assets/images/avatar.png";
 
 function About() {
     return (
-        <section className="my-5">
+        <section>
             <h1 id="about">About me</h1>
-            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-            <div className="my-2">
+            <img src={coverImage} style={{ width: "100%" }} alt="cover" />
+            <div>
+            {/* <img src={avatar} alt="av"/> */}
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
           condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
